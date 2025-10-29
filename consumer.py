@@ -1,6 +1,6 @@
 from confluent_kafka import Consumer, KafkaException
 
-
+#
 #kafka-console-producer  --topic test_topic  --bootstrap-server localhost:9092           
 #>ola
 #>how are you doing?
