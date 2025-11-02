@@ -18,5 +18,5 @@ def before_and_after():
 
 class TestTheTests:
     def test_1(self, before_and_after):
-        print("cwd: " + os.getcwd())
+        print("cwd:! " + os.getcwd())
         assert ((1 + 1) == 2) is True
