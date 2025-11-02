@@ -37,5 +37,5 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fizzbuzz(4), 4)
 
 
-# if __name__ == "__main__":
-#    unittest.main()
+if __name__ == "__main__":
+    unittest.main()
