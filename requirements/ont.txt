@@ -1,0 +1,10 @@
+-r prod.txt
+
+#voor pre-commit framework (kan niet door pipeline door nexus)
+# pip install pre-commit black flake8 pytest
+pre-commit
+black
+flake8
+diff-cover #blijkbaar moet je dit apart van requirements.txt ook apart pip installen?
+pytest
+
