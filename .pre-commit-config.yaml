@@ -10,7 +10,7 @@ repos:
 
     -   id: flake8-diff
         name: Flake8 (diff-cover)
-        entry: diff-quality --violations=flake8 --compare-branch=origin/pre-develop
+        entry: diff-quality --violations=flake8 --compare-branch=origin/main
         language: system
         types: [python]
 
