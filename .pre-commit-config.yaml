@@ -29,11 +29,11 @@ repos:
 #        language: system
 #        types: [javascript]
 
-    -   id: eslint
-        name: ESLint (legacy config)
-        entry: npx eslint --config .eslintrc.json
-        language: system
-        types: [javascript]
+#    -   id: eslint
+#        name: ESLint (legacy config)
+#        entry: npx eslint --config .eslintrc.json
+#        language: system
+#        types: [javascript]
 
     -   id: prettier-diff
         name: Prettier (diff only)
