@@ -9,3 +9,5 @@ $(document).ready(function () {
     console.log("we zijn in document ready van mb-functies en dit is usermenu: " + usermenu);
     })
   });
+
+  // hoi
