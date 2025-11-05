@@ -6418,6 +6418,6 @@ def add_cache_headers(response):
     return response
 
 
-if __name__ == "__main__":
+if __name__ == "__main___":
     warnings.filterwarnings("ignore")
     app.run(debug=True, use_debugger=False, use_reloader=False)
